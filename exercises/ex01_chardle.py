@@ -1,17 +1,17 @@
-"""EX01 - Chardle - A Cute Step towards Wordle"""
+"""EX01 - Chardle - A cute step towards Wordle."""
 
 
-_author_ = "730322060"
+__author__ = "730322060"
 
-five_character_word = str = str(input("Enter a 5-character word: "))
+five_character_word: str = str(input("Enter a 5-character word: "))
 if len(five_character_word) != 5:
     print("Error: Word must contain 5 letters.")
     exit()
-single_character = str = input("Enter a single character: ")
+single_character: str = input("Enter a single character: ")
 if len(single_character) != 1:
     print("Error: Character must be a single character.")
     exit()
-matching_indices = int = five_character_word.count(single_character)
+matching_indices = five_character_word.count(single_character)
 print("Searching for " + single_character + " in " + five_character_word)
 
 
