@@ -27,14 +27,14 @@ if single_character == five_character_word[4]:
     print(single_character + " found at index 4. ")
 
 if matching_indices == 0:
-    print("no instance of " + single_character + " found in " + five_character_word)
+    print("no instances of " + single_character + " found in " + five_character_word)
 if matching_indices == 1:
     print("1 instance of " + single_character + " found in " + five_character_word)
 if matching_indices == 2:
-    print("2 instance of " + single_character + " found in " + five_character_word)
+    print("2 instances of " + single_character + " found in " + five_character_word)
 if matching_indices == 3:
-    print("3 instance of " + single_character + " found in " + five_character_word)
+    print("3 instances of " + single_character + " found in " + five_character_word)
 if matching_indices == 4:
-    print("4 instance of " + single_character + " found in " + five_character_word)
+    print("4 instances of " + single_character + " found in " + five_character_word)
 if matching_indices == 5:
-    print("5 instance of " + single_character + " found in " + five_character_word)
+    print("5 instances of " + single_character + " found in " + five_character_word)
